@@ -11,3 +11,9 @@ function countBy(x, n) { //Função que soma o primeiro input na quantidade de v
 }
 
 
+function litres(time) {
+
+  let lit = parseInt(parseInt(time,10)* 0.5,10)
+
+  return lit;
+}
