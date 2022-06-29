@@ -11,9 +11,18 @@ function countBy(x, n) { //Função que soma o primeiro input na quantidade de v
 }
 
 
-function litres(time) {
+function litres(time) { //Função que arredonda pra menos o produto da quantidade de tempo informada vezes 0,5
 
   let lit = parseInt(parseInt(time,10)* 0.5,10)
 
   return lit;
 }
+
+
+var countSheep = function (num){ //Função que concatena strings mediante quantidade desejada
+    let a = ""
+    for(let i = 1; i <= num; i++){
+    a = a + i + " sheep..."
+    }
+    return a
+  }
