@@ -26,3 +26,10 @@ var countSheep = function (num){ //Função que concatena strings mediante quant
     }
     return a
   }
+
+  function paperwork(n, m) { //Função que verifica se argumentos são maiores que 0 e multiplica os mesmos
+    if(n<0 || m<0){
+      return 0
+    } return n*m
+  }
+  
