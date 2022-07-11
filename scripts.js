@@ -27,11 +27,13 @@ var countSheep = function (num) { //Função que concatena strings mediante quan
   return a
 }
 
+
 function paperwork(n, m) { //Função que verifica se argumentos são maiores que 0 e multiplica os mesmos
   if (n < 0 || m < 0) {
     return 0
   } return n * m
 }
+
 
 function betterThanAverage(classPoints, yourPoints) { // Função que adiciona a nota à array e verifica se é maior que a média retornando True or False
   let avgr = 0
@@ -41,3 +43,20 @@ function betterThanAverage(classPoints, yourPoints) { // Função que adiciona a
   }
   return yourPoints > (avgr / classPoints.length)
 }
+
+
+function smash(words) { // Função que transforma array em frase string e coloca espaços somente entre as palavras
+  let phrase = ''
+  let j = 0
+  if (words != '') {
+    if (words.length > 1) {
+      for (let i = 0; i < words.length - 1; i++) {
+        phrase += words[i] + " "
+        j++
+      }
+    }
+    phrase += words[j];
+
+  }
+  return phrase
+};
