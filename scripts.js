@@ -37,7 +37,7 @@ function paperwork(n, m) { //Função que verifica se argumentos são maiores qu
 
 function betterThanAverage(classPoints, yourPoints) { // Função que adiciona a nota à array e verifica se é maior que a média retornando True or False
   let avgr = 0
-  classPoints.push(yourPoints);
+  classPoints.push(yourPoints)
   for (let i = 0; i < classPoints.length; i++) {
     avgr += classPoints[i]
   }
