@@ -17,3 +17,5 @@ console.log(min+" "+max)
 }
 
 miniMaxSum()
+
+//WORKING
