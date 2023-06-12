@@ -10,6 +10,8 @@ function countBy(x, n) { //Função que soma o primeiro input na quantidade de v
   return z;
 }
 
+//------------------------------------------------------------------------------------------------------------
+
 function litres(time) { //Função que arredonda pra menos o produto da quantidade de tempo informada vezes 0,5
 
   let lit = parseInt(parseInt(time, 10) * 0.5, 10)
@@ -17,6 +19,7 @@ function litres(time) { //Função que arredonda pra menos o produto da quantida
   return lit;
 }
 
+//------------------------------------------------------------------------------------------------------------
 
 var countSheep = function (num) { //Função que concatena strings mediante quantidade desejada
   let a = ""
@@ -26,6 +29,7 @@ var countSheep = function (num) { //Função que concatena strings mediante quan
   return a
 }
 
+//------------------------------------------------------------------------------------------------------------
 
 function paperwork(n, m) { //Função que verifica se argumentos são maiores que 0 e multiplica os mesmos
   if (n < 0 || m < 0) {
@@ -33,6 +37,7 @@ function paperwork(n, m) { //Função que verifica se argumentos são maiores qu
   } return n * m
 }
 
+//------------------------------------------------------------------------------------------------------------
 
 function betterThanAverage(classPoints, yourPoints) { // Função que adiciona a nota à array e verifica se é maior que a média retornando True or False
   let avgr = 0
@@ -43,6 +48,7 @@ function betterThanAverage(classPoints, yourPoints) { // Função que adiciona a
   return yourPoints > (avgr / classPoints.length)
 }
 
+//------------------------------------------------------------------------------------------------------------
 
 function smash(words) { // Função que transforma array em frase string e coloca espaços somente entre as palavras
   let phrase = ''
